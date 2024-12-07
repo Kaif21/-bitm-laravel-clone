@@ -1,0 +1,38 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  .flex-item {
+    flex: 1 1 140px;
+    max-width: 200px;
+    min-width: 120px;
+  }
+  /* brand color */
+  .text-brand-color {
+    color: #0054a6 !important;
+  }
+  .border-brand-color {
+    border-color: #0054a6 !important;
+  }
+  .bg-brand-color {
+    background-color: #0054a6 !important;
+  }
+  /* dropdown */
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  /* media queries */
+  @media only screen and (max-width: 768px) {
+    .border-end {
+      border-right:0 !important;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .border-top {
+      border-top:0 !important;
+    }
+  }
